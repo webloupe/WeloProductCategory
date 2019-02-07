@@ -1,0 +1,36 @@
+{
+    "name": "webloupe/welo-product-category",
+    "license": "proprietary",
+    "keywords": ["shopware", "webloupe", "plugin", "category"],
+    "type": "shopware-plugin",
+    "authors": [
+        {
+            "name": "Cyprien Nkeneng",
+            "homepage": "https://www.webloupe.com",
+            "email": "cyprien.nkeneng@webloupe.de"
+        }
+    ],
+    "extra": {
+        "installer-name": "WeloProductCategory"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit -c tests/ --colors=always",
+        "test-unit": "vendor/bin/phpunit -c tests/phpunit_unit.xml --colors=always"
+    },
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "require-dev": {
+    },
+    "repositories": [
+        {
+            "type": "github",
+            "url": "https://github.com/webloupe/welo-product-category.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WeloProductCategory\\": "./"
+        }
+    }
+}
