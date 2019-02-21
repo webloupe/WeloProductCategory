@@ -3,13 +3,6 @@
     "license": "proprietary",
     "keywords": ["shopware", "webloupe", "plugin", "category"],
     "type": "shopware-plugin",
-    "authors": [
-        {
-            "name": "Cyprien Nkeneng",
-            "homepage": "https://www.webloupe.com",
-            "email": "cyprien.nkeneng@webloupe.de"
-        }
-    ],
     "extra": {
         "installer-name": "WeloProductCategory"
     },
