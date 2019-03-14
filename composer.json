@@ -1,5 +1,5 @@
 {
-    "name": "webloupe/welo-product-category",
+    "name": "webloupe/WeloProductCategory",
     "license": "proprietary",
     "keywords": ["shopware", "webloupe", "plugin", "category"],
     "type": "shopware-plugin",
@@ -18,7 +18,7 @@
     "repositories": [
         {
             "type": "github",
-            "url": "https://github.com/webloupe/welo-product-category.git"
+            "url": "https://github.com/webloupe/WeloProductCategory.git"
         }
     ],
     "autoload": {
