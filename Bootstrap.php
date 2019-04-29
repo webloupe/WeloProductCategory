@@ -31,8 +31,8 @@ class Shopware_Plugins_Backend_WeloProductCategory_Bootstrap extends Shopware_Co
             'label' => $this->getLabel(),
             'supplier' => 'Steven Thorne',
             'author'   => 'Web Loupe',
-            'description' => 'Artikel direkt aus der Kategorie listing öffnen',
-            'support' => 'Shopware Forum',
+            'description' => 'Artikel direkt aus der Kategorie listing im Backend öffnen',
+            'support' => 'Web Loupe',
             'link' => 'http://www.webloupe.de'
         );
     }
@@ -49,7 +49,7 @@ class Shopware_Plugins_Backend_WeloProductCategory_Bootstrap extends Shopware_Co
      * @return string
      */
     public function getVersion(){
-        return '1.0.0';
+        return '1.0.1';
     }
     
     /**
